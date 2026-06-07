@@ -38,9 +38,9 @@ Contact form and business information.
 - HTML5
 - CSS3
 
-## 📸 Screenshots
+## 📸 Project Preview
 
-Add screenshots here.
+![Sofa Showroom Website](images/Demo.png)
 
 ## 🎯 Project Objective
 
