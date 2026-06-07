@@ -1,0 +1,193 @@
+body{
+
+    background-color: rgba(221, 237, 46, 0.661);
+
+}
+#outer{
+    height: auto;
+    width: 1200px;
+    margin: 0px auto;
+
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px 30px 0px 0px;
+    border: 1px solid transparent;
+
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight:900;
+    padding: 5px;
+
+}
+.nav ul li a:hover{
+    background-color: rgb(43, 230, 43);
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s ease;
+
+}
+.slider{
+    height: 400px;
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/0d/1a/77/0d1a7728f3564c60efcae7bbf34a7b0b.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    margin-top: 5px;
+}
+.main{
+    height: auto;
+    width: 100%;
+    margin-top: 5px ;
+    display: flex;
+    border: 1px solid transparent;
+}
+.left{
+    height: auto;
+    width: 70%;
+    background-color: white;
+    border-radius: 0px 0px 0px 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    
+}
+.d1{
+    height: auto;
+    width: 95%;
+    
+}
+.right{
+    height: auto;
+    width: 30%;
+    background-color: rgb(115, 225, 115);
+    border-radius: 0px 0px 30px 0px;
+    padding-left: 15px;
+    font-size: 17px;
+}
+.right ul li{
+    margin-top: 10px;
+}
+.footer{
+   height: 300px;
+   width: 100%;
+   background-color: white;
+   border: 1px solid transparent;
+   border-radius: 30px;
+   margin-top: 10px;
+   display: flex;
+}
+.child1{
+    height: 280px;
+    width: 31.3%;
+    border: 1px solid transparent;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+.i1{
+    height: 260px;
+    width: 98%;
+}
+.child1 h3{
+    height: 10px;
+
+}
+.child1 img{
+    height: 80px ;
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.p1 {
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px; 
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    margin-top: 10px; 
+}
+
+
+.fullbox {
+    width: 100%;
+    margin-top: 20px;
+}
+.fullbox textarea{
+    width: 97%;
+}
+.fullbox input{
+    width: 97%;
+}
+
+label{
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px; 
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #333;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10PX; 
+}
+
+button:hover {
+    background: #d43a3a;
+}
+.last{
+    width: 82.5%;
+    margin: 0px auto;
+    background-color: white;
+    border: 1px solid transparent;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+}
