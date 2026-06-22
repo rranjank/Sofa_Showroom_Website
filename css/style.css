@@ -114,3 +114,24 @@ body{
     margin-left: 10px;
     border: 1px solid black;
 }
+@media (max-width:576px){
+
+  .right-top,
+  .latest-news,
+  .view-all{
+    display:none;
+  }
+
+  .left-top{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    white-space:nowrap;
+    font-size:12px;
+  }
+
+  .news-bar{
+    height:40px;
+  }
+}
